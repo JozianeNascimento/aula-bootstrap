@@ -1,0 +1,103 @@
+body{
+    font-family: 'Hind Vadodara', sans-serif;
+}
+h1, h2, h3,h4, h5{
+    font-weight: 600;
+    
+}
+.naveg{
+        background-color: #f8f9fa;
+        color: #fd0d55;
+        margin-bottom: 50px;
+    }
+.navegTitle{
+    font-size:large;
+    color: #fd0d55 !important;
+    padding-left: 100px;
+    
+}
+.navegColapso{
+    
+    padding-right:110px;
+  
+}
+.carros{
+    margin-bottom: 20px;
+}
+.padPadrao{
+    padding-top: 15px;
+
+}
+.padMaior{
+    padding-top: 15px;
+}
+.marginbetween{
+    margin-bottom: 20px;
+}
+.news{
+    margin-top: 40px;
+}
+.newsPrincipals{
+   margin-top: 30px; 
+   padding-bottom: 15px;
+}
+
+.card-lateral{
+    background-color:#eeeeee;
+    margin-bottom:20px;
+    border-radius: 5px;
+}
+.cardPrincipal{
+    background-color: #eeeeee;
+    border-radius: 5px; 
+   
+   
+}
+.btn{
+    background-color: #fd0d55;
+    color: white;
+    padding:  10px 40px;
+}
+.marginCardLateral{
+    margin-bottom: 15px;
+}
+.img-rs{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fd0d55;
+    line-height: 50px;
+    height: 50px;
+    padding-left:110px;
+    padding-right:110px;
+    margin-top: 80px;
+    
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.negrito{
+    font-weight: normal;
+    font-size: larger;
+}
+@media screen and (max-width:572px) {
+    .navegTitle{
+        width: 100%;
+        padding:0px;
+    }
+    .cardPrincipalum{
+        margin-top: 80px;
+    }
+    .negrito{
+     width: 100%;
+     font-size: normal;
+    }
+    .btn{
+     padding: 15px 50px;
+    }    
+ }
+
